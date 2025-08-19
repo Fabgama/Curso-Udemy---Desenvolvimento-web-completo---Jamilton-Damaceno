@@ -1,0 +1,141 @@
+
+body{
+    background: #e6e6e6;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+header{
+    background-color: #f7b600;
+    height: 135px;
+    margin-top: 0;
+    text-align: center;
+}
+
+h1 span{
+    color:#4e4e4e;
+}
+
+h1{
+    color:white;
+    font-size: 40px;
+    padding-top: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+header a{
+    margin-top: 30px;
+    padding-left: 12px;
+    color:white;
+    text-decoration: none;
+    
+}
+header a:hover{
+    background-color: white;
+    color: #ecad38;
+    
+}
+
+.content{
+    width: 1270px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog1{
+    display: flex;
+    width: 680px;
+}
+
+.tit_pos{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+h2{
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    color: #ecad38;
+}
+
+.recente{
+    display: flex;
+    flex-direction: column;
+}
+
+.recente a{
+    font-size: 0.8em;
+}
+
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+p{
+    font-size: 0.8em;
+    margin-top: 1px;
+}
+
+.pos_recente{
+    margin-top: 20px;
+    margin-left: 20px;
+    background: white;
+    height: fit-content;
+    width: 250px;
+    padding: 10px;
+}
+
+.pos_recente p{
+    margin: 0;
+}
+
+.pos_categoria{
+    margin-left: 20px;
+    margin-top: 20px;
+    background: white;
+    height: fit-content;
+    width: 250px;
+    padding: 10px;
+}
+.pos_categoria ul{
+    padding: 0;
+    list-style: none;
+}
+.pos_categoria ul li a{
+    font-size: 1em;
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.blog2{
+    width: 680px;
+}
+
+.blog2_txt{
+    font-size: 1em;
+    margin: 0;
+}
+.footer{
+    background-color: #CCC;
+    width: 975px;
+    margin-left: 285px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-size: 1em;
+    margin-top: 16px;
+
+}
+
+
