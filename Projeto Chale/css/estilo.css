@@ -1,0 +1,212 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.body{
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: #fff url(../imagens/bg.png);
+}
+.container{
+    background: url(../imagens/bg-container.png)repeat-y center;
+    /*background: #ede9cc;*/
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+/**** INICIO FORMATAÇÃO TOPO ****/
+
+#topo{
+    position: relative;
+    background: #dbcd87;
+    height: 15.6em;
+    min-height: 250px;
+}
+#area-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 100%;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat left; 
+    z-index: 1;
+}
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -3000px;
+}
+#area-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 250px;
+    width: 450px;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    z-index: 2;
+}
+#conteudo-menu{
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+hr{
+    margin: 0;
+}
+.reservar{
+    text-align: center;
+    
+}
+/* .reservar a{
+    text-decoration: none;
+    color: #8b8448;
+} */
+/* .menu-locais ul{
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 0;
+} */
+#conteudo-menu ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0;    
+}
+.menu-locais ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.menu-locais a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #8b8448;
+}
+.menu-locais .submit{
+    color: #fff;
+    background: #5a5315;
+    border-radius: 35%;
+    font-size: .7em;
+}
+.menu-locais a:hover{
+    color:#4f4809 ;
+}
+.menu-lateral{
+    float: left;
+    width: auto;
+}
+.menu-lateral li a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #5f5b31; 
+    text-transform: uppercase;
+    line-height: 30px; 
+    padding: 5px;  
+}
+.menu-lateral li a:hover{
+    background: #fdf6be;
+}
+
+.depoimento{
+    width: 226px;
+    height: 170px;
+    float: right;
+    margin-top: 15px;
+    background: url(../imagens/depoimento.png) no-repeat top right;
+}
+/**** FIM FORMATAÇÃO TOPO ****/
+
+/**** INICIO FORMATAÇÃO AREA PRINCIPAL ****/
+.principal{
+    margin: 0px auto ;
+}
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+.principal-txt{
+    width: 50%;
+    padding: 15px 0;
+    /*margin: 10px;*/
+    float: left;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    /* position: relative;
+    top: 0;
+    left: 0; */
+    
+}
+.principal-txt h2{
+    color: #727640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+.principal-txt p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.principal-menu{
+    width: 50%;
+    padding: 20px 0;
+    /*margin: 10px;*/
+    float: right;
+    background: url(../imagens/bg-area-lateral.png) top right repeat-x;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1; */
+}
+.principal ul{
+    list-style: none;
+    padding-left: 30px;
+}
+.principal-menu li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcd;
+    height: 6em;
+}
+.principal-menu li a img{
+    float: left;
+    margin-right: 8px;
+}
+.principal-menu li a{
+    font-size: 0.8em;
+}
+.principal-menu li:hover{
+    background: #fdf6be;
+    cursor: pointer;
+}
+
+/* .principal-menu-txt{
+    float: right;
+} */
+.principal-menu-txt h3{
+    background: url(../imagens/ornamento.png)no-repeat center right;
+    color: #615b2d;
+    font-size: 1.1em;
+    padding: 5px 0;
+    margin: 0;
+}
+.principal-menu-txt p{
+    color: #000;
+    font-size: 0.8em;
+    margin: 0;
+    /* margin: 0;
+    height: auto;
+    width: 380px; */
+}
+.principal a{
+    text-decoration: none;
+}
+
+.rodape{
+    clear: both;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    height: 66px;
+    padding-top: 20px;
+    color: #6f6a45;
+}
